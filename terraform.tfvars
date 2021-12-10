@@ -1,0 +1,11 @@
+env                 = "prodmvpc"
+network             = ["10.0.0.0/16"]
+subnet_front        = ["10.0.1.0/24"]
+subnet_back         = ["10.0.2.0/24"]
+subnet_database     = ["10.0.3.0/24"]
+subnet_container    = ["10.0.4.0/24"]
+docker_hub_user     = "willonil"
+docker_hub_passwd   = "suaSenha"
+sqlvm_user_passwd   = "MVP@Conf2021"
+sql_user_passwd     = "MVP@Conf2021"
+num_vm_instances    = 2
